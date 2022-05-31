@@ -44,6 +44,9 @@
 }
 
 .list {
+    padding: 0;
+    margin: 0;    
+    
     list-style: none;
 }
 
@@ -109,18 +112,21 @@
 
 .hero {
     background-color: var(--hero-background-color);
+
+    text-align: center;
 }
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+
     color: var(--hero-title-color);
 
     text-transform: uppercase;
-    text-align: center;
     letter-spacing: 0.06em;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    
 }
 
 
@@ -223,6 +229,8 @@
 
 .button {
     border-style: none;
+    border-radius: 4px;
+    display: inline-block;
 
     cursor: pointer;
 
@@ -232,9 +240,8 @@
 }
 
 .button-hero {
-    width: 200px0;
-    height: 50px;
-    border-radius: 4px;
+    min-width: 200px0;
+    min-height: 50px;
     padding: 10px 32px;
 
     background-color: var(--action-color);
@@ -250,6 +257,10 @@
 }
 
 .button-filter {
+    min-width: 73px;
+    min-height: 38px;
+    padding: 6px 22px;
+
     background-color: var(--second-background-color);
     color: var(--title-text-color);
 
