@@ -24,9 +24,22 @@
     --second-background-color: #F5F4FA;
     --hero-background-color: #2F303A;
     --footer-background-color: #2F303A;
+
+    --header-border-bottom-color: #ECECEC;
 }
 
 /*Global*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .container {
     width: 1200px;
@@ -54,7 +67,16 @@
     text-decoration: none;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /*Header*/
+
+.page-header {
+    border-bottom: var(--header-border-bottom-color) solid 1px;
+}
 
 /*Logo*/
 
@@ -119,6 +141,10 @@
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 696px;
+    height: 120px;
 
     color: var(--hero-title-color);
 
@@ -133,6 +159,8 @@
 /*Main*/
 
 .section-title {
+    margin-bottom: 50px;
+
     color: var(--title-text-color);
 
     text-align: center;
@@ -142,10 +170,27 @@
     letter-spacing: 0.03em;
 }
 
+.section-title-unvisible{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /*features*/
 
 .feature-list-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
     color: var(--title-text-color);
+
 
     text-transform: uppercase;
     font-weight: 700;
@@ -155,6 +200,9 @@
 }
 
 .feature-list-text {
+    margin-top: 0;
+    margin-bottom: 0;
+
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -162,6 +210,9 @@
 
 /*Our-job*/
 
+.section-our-jobs {
+    padding-top: 0;
+}
 
 /*team*/
 
@@ -188,6 +239,7 @@
 
 .footer {
     background-color: var(--footer-background-color);
+    padding: 60px 0;
 }
 
 /*Logo*/
