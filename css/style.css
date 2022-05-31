@@ -146,7 +146,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 696px;
-    height: 120px;
 
     color: var(--hero-title-color);
 
@@ -217,6 +216,10 @@ p {
 }
 
 /*team*/
+
+.team-item {
+    width: 270px;
+}
 
 .team-list-title {
     margin-bottom: 10px;
@@ -299,8 +302,8 @@ p {
 }
 
 .button-hero {
-    min-width: 200px0;
-    min-height: 50px;
+    min-width: 200px;
+    /* min-height: 50px; */
     padding: 10px 32px;
 
     background-color: var(--action-color);
@@ -317,7 +320,7 @@ p {
 
 .button-filter {
     min-width: 73px;
-    min-height: 38px;
+    /* min-height: 38px; */
     padding: 6px 22px;
 
     background-color: var(--second-background-color);
