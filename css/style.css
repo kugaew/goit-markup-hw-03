@@ -222,6 +222,8 @@
 /*Button*/
 
 .button {
+    border-style: none;
+
     cursor: pointer;
 
     font-family: inherit;
@@ -230,6 +232,11 @@
 }
 
 .button-hero {
+    width: 200px0;
+    height: 50px;
+    border-radius: 4px;
+    padding: 10px 32px;
+
     background-color: var(--action-color);
     color: var(--hero-btn-text-color);
 
