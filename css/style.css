@@ -219,6 +219,7 @@ p {
 /*team*/
 
 .team-list-title {
+    margin-bottom: 10px;
     color: var(--title-text-color);
 
     font-weight: 500;
@@ -235,6 +236,10 @@ p {
 
 .team {
     background-color: var(--second-background-color);
+}
+
+.team-photo {
+    margin-bottom: 30px;
 }
 
 /*Footer*/
@@ -332,7 +337,12 @@ p {
 
 /*portfolio section*/
 
+.portfolio-list-img {
+    margin-bottom: 20px;
+}
+
 .portfolio-list-title {
+    margin-bottom: 4px;
     color: var(--title-text-color);
 
     letter-spacing: 0.06em;
