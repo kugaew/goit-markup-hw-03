@@ -141,6 +141,7 @@ ul {
 
 .contacts-nav {
     display: flex;
+    margin-left: auto;
 }
 
 .contacts-nav-item:not(:last-child) {
@@ -159,7 +160,7 @@ ul {
 .page-header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .site-nav,
