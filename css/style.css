@@ -48,7 +48,7 @@ ul {
 .container {
     width: 1200px;
     padding: 0 15px;
-    outline: solid 2px red;
+    /* outline: solid 2px red; */
     margin: 0 auto;
 }
 
@@ -310,11 +310,13 @@ ul {
 
 .team-list {
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-.team-list-item:not(:last-child) {
+/* .team-list-item:not(:last-child) {
     margin-right: 30px;
-}
+} */
 
 .team-list-item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -432,15 +434,31 @@ ul {
     color: var(--hero-btn-text-color);
 }
 
-/*добавлет рамку, но на всю карточку*/
-.portfolio-item {
-    width: 370px;
-    border: 1px solid #EEEEEE;
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-.portfolio-list-img {
-    margin-bottom: 20px;
+/*добавлет рамку, но на всю карточку*/
+/* .portfolio-item {
+    border-bottom: 1px solid #EEEEEE;
+} */
+
+.portfolio-border {
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    /* background-color: red; */
 }
+
+/* .portfolio-list-img {
+    margin-bottom: 20px;
+} */
 
 .portfolio-list-title {
     margin-bottom: 4px;
