@@ -11,6 +11,8 @@
 /* фон хедера #FFFFFF */
 /* фон футера #2F303A */
 
+/*============================ Variables ==========================*/
+
 :root {
     --main-text-color: #757575;
     --title-text-color: #212121;
@@ -28,7 +30,7 @@
     --header-border-bottom-color: #ECECEC;
 }
 
-/*Global*/
+/*=========================== Global =======================*/
 
 h1,
 h2,
@@ -71,7 +73,9 @@ ul {
     padding-bottom: 94px;
 }
 
-/*Header*/
+/*=========================== MAIN PAGE ==============================*/
+
+/*============================ Header-all-pages ==============================*/
 
 .page-header {
     border-bottom: var(--header-border-bottom-color) solid 1px;
@@ -79,7 +83,7 @@ ul {
     padding-bottom: 25px;
 }
 
-/*Logo*/
+/*++++++ Logo-all-pages ++++++*/
 
 .logo {
     color: var(--title-text-color);
@@ -100,7 +104,7 @@ ul {
     color: var(--action-color);
 }
 
-/*Navigate site*/
+/*+++++ Navigate-site-all-pages ++++++*/
 
 .site-nav-link {
     color: var(--title-text-color);
@@ -120,7 +124,7 @@ ul {
     color: var(--action-color);
 }
 
-/*Contacts*/
+/*++++++ Contacts-all-pages +++++++*/
 
 .contacts-nav-link {
     color: var(--main-text-color);
@@ -131,7 +135,7 @@ ul {
     color: var(--action-color);
 }
 
-/*Hero*/
+/*============================ Hero-main-pages ================================*/
 
 .hero {
     background-color: var(--hero-background-color);
@@ -156,7 +160,7 @@ ul {
 }
 
 
-/*Main*/
+/*=============================== Main-main-pages =============================*/
 
 .section-title {
     margin-bottom: 50px;
@@ -183,7 +187,7 @@ ul {
     overflow: hidden;
 }
 
-/*features*/
+/*+++++++ features-main-pages +++++++*/
 
 .feature-list-title {
     margin-top: 0;
@@ -208,20 +212,20 @@ ul {
     letter-spacing: 0.03em;
 }
 
-/*Our-job*/
+/*+++++++ Our-job-main-pages +++++++*/
 
 .section-our-jobs {
     padding-top: 0;
 }
 
-/*team*/
+/*+++++++ Team-main-pages +++++++*/
 
-.team-item {
+/* .team-item {
     width: 270px;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-}
+} */
 
 .team-list-title {
     margin-bottom: 10px;
@@ -247,14 +251,14 @@ ul {
     margin-bottom: 30px;
 }
 
-/*Footer*/
+/*=========================== FOOTER-all-pages ==========================*/
 
 .footer {
     background-color: var(--footer-background-color);
     padding: 60px 0;
 }
 
-/*Logo*/
+/*++++++++ footer-Logo-all-pages ++++++++++*/
 
 .footer-logo {
     color: var(--hero-title-color);
@@ -265,10 +269,10 @@ ul {
     color: var(--action-color);
 }*/
 
-/*Address*/
+/*++++++++ Address-all-pages +++++++++*/
 
 
-/*footer contacts*/
+/*++++++++ footer-contacts-all-pages +++++++*/
 
 .footer-contacts-adress-link,
 .footer-contacts-link {
@@ -297,6 +301,7 @@ ul {
     display: inline-block;
 
     cursor: pointer;
+/*+++++++++ Main-portfolio-page ++++++++++++*/
 
     font-family: inherit;
     font-size: 16px;
@@ -337,10 +342,6 @@ ul {
     background-color: var(--action-color);
     color: var(--hero-btn-text-color);
 }
-
-/* portfolio page*/
-
-/*portfolio section*/
 
 /*добавлет рамку, но на всю карточку*/
 .portfolio-item {
