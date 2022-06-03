@@ -404,6 +404,16 @@ ul {
 
 /*filter-button*/
 
+.filter-btn-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.filter-btn-list-item:not(:last-child) {
+    margin-right: 8px;
+}
+
 .button-filter {
     min-width: 73px;
     /* min-height: 38px; */
