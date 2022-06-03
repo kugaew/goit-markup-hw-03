@@ -232,6 +232,8 @@ ul {
 
 /*=============================== Main-main-pages =============================*/
 
+/*+++++++ features-main-pages +++++++*/
+
 .section-title {
     margin-bottom: 50px;
 
@@ -257,11 +259,18 @@ ul {
     overflow: hidden;
 }
 
-/*+++++++ features-main-pages +++++++*/
+.feature-list {
+    display: flex;
+}
+
+.feature-list-item:not(:last-child) {
+    margin-right: 30px;
+}
 
 .feature-list-title {
     margin-top: 0;
     margin-bottom: 10px;
+    min-width: 270px;
 
     color: var(--title-text-color);
 
