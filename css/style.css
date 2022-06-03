@@ -349,14 +349,23 @@ ul {
 /*=========================== FOOTER-all-pages ==========================*/
 
 .footer {
-    background-color: var(--footer-background-color);
     padding: 60px 0;
+
+    background-color: var(--footer-background-color);
+    
 }
 
 /*++++++++ footer-Logo-all-pages ++++++++++*/
 
 .footer-logo {
+    display: block;
+    margin-bottom: 20px;
+
     color: var(--hero-title-color);
+}
+
+.footer-contacts-list-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 /*.footer-logo:focus,
