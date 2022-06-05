@@ -350,6 +350,7 @@ ul {
 
 .team-photo {
     margin-bottom: 30px;
+    display: block;
 }
 
 /*=========================== FOOTER-all-pages ==========================*/
