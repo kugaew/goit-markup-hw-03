@@ -456,9 +456,9 @@ ul {
     /* background-color: red; */
 }
 
-/* .portfolio-list-img {
-    margin-bottom: 20px;
-} */
+.portfolio-list-img {
+    display: block;
+}
 
 .portfolio-list-title {
     margin-bottom: 4px;
