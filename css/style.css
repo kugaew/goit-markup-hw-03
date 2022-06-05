@@ -429,7 +429,8 @@ ul {
     color: var(--title-text-color);
 
     letter-spacing: 0.03em;
-    line-height: 1.62;
+    line-height: 26px;
+    font-weight: 500;
 }
 
 .button-filter:focus,
