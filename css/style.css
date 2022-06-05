@@ -305,6 +305,10 @@ ul {
     display: flex;
 }
 
+.our-jobs-img {
+    display: block;
+}
+
 .our-jobs-list-item:not(:last-child) {
     margin-right: 30px;
 }
